@@ -49,7 +49,6 @@ function App() {
         totalFeedback={totalFeedback}
         resetFeedback={resetFeedback}
       ></Options>
-      {/* xm */}
       {totalFeedback > 0 ? (
         <Feedback
           feedback={feedback}
